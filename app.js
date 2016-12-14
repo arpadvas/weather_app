@@ -1,7 +1,3 @@
-/*var weatherInfo = require("./weatherInfo.js");
-var cities = process.argv.slice(2);
-cities.forEach(weatherInfo.get);*/
-
 var router = require("./router.js")
 var http = require("http");
 http.createServer(function(request, response) {
