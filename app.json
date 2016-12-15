@@ -1,0 +1,12 @@
+{
+  "name": "weather_app",
+  "description": "get current weather",
+  "repository": "https://github.com/arpadvas/weather_app.git",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static"],
+  "image": "heroku/nodejs",
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-pgbouncer"
+    }]
+}
